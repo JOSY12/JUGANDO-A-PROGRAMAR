@@ -25,7 +25,7 @@ function ingredienteEnMalEstado(menu, comida, ingrediente) {
   let anterior="";
   let posterior="";
   bandera =0;
-  /* OPCION 1
+  /* OPCION 1 para ejecutar
   for(let i=0;i<menu[comida].length;i++){
       if(menu[comida][i+1]==ingrediente)
       {
