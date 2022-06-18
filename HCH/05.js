@@ -13,25 +13,7 @@ function buscaDestruye(arreglo, num) {
   // Ej: buscaDestruye([1, 2, 3, 4, 1], 1) devuelve => [2, 3, 4]
   //
   // Tu código aca:
-  let resultado =[];
   
- //OPCION 1 
-/*  for(let i=0;i<arreglo.length;i++){
-    if(arreglo[i]!==num)
-    {
-      resultado.push(arreglo[i]);
-    }
-  }
-*/
-
-//OPCION 2
-  arreglo.forEach(function(numero) {
-    if(numero!==num)
-    {
-      resultado.push(numero);
-    }
-  });
-  return resultado;
 };
 
 // No modifiques nada debajo de esta linea //

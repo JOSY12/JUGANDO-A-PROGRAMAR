@@ -20,7 +20,7 @@ function crearClaseAlumno() {
           
       };
 
-      addAmigos(nombre, apellido) {
+     
           // Este método debe agregar amigos al array de grupoDeAmigos del alumno.
           // Añade un objeto con las propiedades "nombre", "apellido" y "cohorte" (siendo 
           // el value de cohorte el mismo que tiene asignado la instancia de "Alumno") 
@@ -28,46 +28,8 @@ function crearClaseAlumno() {
           // No debe retornar nada.
           //
           // Tu código:
-          this.grupoDeAmigos.push({'nombre':nombre,'apellido':apellido,'cohorte':this.cohorte});
-
-          
-      };
-
-      obtenerAmigos() {
-          // Este método debe devolver la cantidad de amigos que tiene el alumno.
-          //
-          // Tu código:
-          return this.grupoDeAmigos.length;
-      };
-
-      addNota(nota) {
-          // Este método añade una nota al array de notasCheckpoints
-          // No debe retornar nada.
-          //
-          // Tu código:
-          this.notasCheckpoints.push(nota);
-      };
-
-      obtenerNotas() {
-          // Este método debe devolver un array con las notas del alumno.
-          //
-          // Tu código:
-          return this.notasCheckpoints;
-      };
-
-      presentacion() {
-          // Este método debe devolver un string utilizando el nombre, el apellido y 
-          // el cohorte del alumno.
-          // Ej: Si ejecutamos presentacion() en la instancia de alumno, devolvería: 
-          // "Hola, soy el alumno Lionel Messi del cohorte 13";
-          //
-          // Tu código:
-        return "Hola, soy el alumno " + this.nombre + " " + this.apellido + " del cohorte " + this.cohorte;
-      };
       
-  };
-
-  return Alumno;
+    }
 };
 
 // No modifiques nada debajo de esta linea //
